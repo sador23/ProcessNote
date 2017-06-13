@@ -40,6 +40,7 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(0)))));
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.processes);
             this.panel1.Location = new System.Drawing.Point(12, 13);
@@ -70,10 +71,11 @@
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(0)))));
             this.panel2.Controls.Add(this.details);
-            this.panel2.Location = new System.Drawing.Point(302, 69);
+            this.panel2.Location = new System.Drawing.Point(295, 13);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(200, 263);
+            this.panel2.Size = new System.Drawing.Size(255, 319);
             this.panel2.TabIndex = 1;
             // 
             // details
