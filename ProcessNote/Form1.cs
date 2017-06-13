@@ -71,7 +71,7 @@ namespace ProcessNote
                     
                     if(processelement.Id == int.Parse(id))
                     {
-                        synthesizer.Speak("Speech recognized: ");
+                        synthesizer.Speak("Process selected with name " + processelement.ProcessName+ "and id " +processelement.Id);
                         details.Items.Clear();
                         try
                         {
